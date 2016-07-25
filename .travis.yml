@@ -1,8 +1,9 @@
 language: node_js
-
 sudo: false
-
 node_js:
-  - "5.9.0"
-
-script: "npm test"
+- 5.9.0
+script: npm test
+deploy:
+  provider: heroku
+  api_key:
+    secure: g1otPYMj4WzP9Cd0tPcv3joWNcNOH48SKFbNg/OlTsiDcmDbRzuPYL3p+Fw9IzluuSXmYnkAa9JTaMHuo487N8ptRWjQXosK9eaXxzyZk6XX4oIMXekKjK0ZwrCkuAPEbhVn4/A/QuPTI27gpRfE9eyVzzQElOCkQNy0EeqbVvLBWtJDMbr2ABeMQe5BtlPLwmIkZdqic5WffSmb1h1HPiPFck4x86WvZkMAIwSef4hifnvzngUnGgGrZaokvf0nMkbHiQZtfxDCtLtR7LVBbU8SqIbmQvA2O2ganXrXNACvsyIoy0OrbMXJ3a70TWN67LcwqP9ecjuGHQI0b25zNLOll/yFyWpid63f9xbKJfMEETp3TrrLR+/F+etYCq2ykRFDvULuk03Qkv2GAtwCpsvh4dMY3ORt/ynynOWKvYjE+LyJA/GgTOS4Denz9K00XpILQfQcal6jhZijLcvCH8RgeE55VFtxwI1YIgb4+yxBYE6SWuYuikE627/i3tsNu1thmKkGlOFKna8mBJ1kTUcDsdFjnSRyt776egu2telGbxtS4fQj7QEHpxy2lVVlMeqSSVy5ZW1WBxueMIc3npdCVEQDYugFYdh7hgWEyqtGAL79kD01INDK0UFucxFzc/8IAvUby/QXJRRRDN/3wp1Ke/oYoIvE1zAiAP++g1s=
