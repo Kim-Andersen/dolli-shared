@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": "https://github.com/Kim-Andersen/dolli-shared",
   "scripts": {
-    "test": "test"
+    "test": "mocha --harmony --growl",
+    "test watch": "mocha --harmony --watch --growl"
   },
   "author": "Kim Andersen <kimandersen1@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "2.5.3"
+  }
 }

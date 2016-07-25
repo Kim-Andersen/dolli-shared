@@ -1,7 +1,9 @@
-var formatters = require('./lib/formatters');
-var validation = require('./lib/validation');
+'use strict;'
+
+var format = require('./lib/format');
+var validate = require('./lib/validate');
 var models = require('./lib/models');
 
-module.exports.formatters = formatters;
-module.exports.validation = validation;
+module.exports.format = format;
+module.exports.validate = validate;
 module.exports.models = models;
