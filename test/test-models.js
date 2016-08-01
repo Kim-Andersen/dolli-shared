@@ -36,7 +36,7 @@ describe('models', function() {
       expect(models.projectAccessRoles).to.be.an.array;
     });
     it('should include expected members', function() {
-      expect(models.projectAccessRoles).to.include.members(['ADMIN', 'MEMBER']);
+      expect(models.projectAccessRoles).to.include.members(['OWNER', 'ADMIN', 'MEMBER']);
     });
   });
 
