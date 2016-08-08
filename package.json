@@ -23,8 +23,7 @@
     ]
   },
   "files": [
-    "index.js",
-    "lib/"
+    "dist/"
   ],
   "devDependencies": {
     "babel-cli": "^6.11.4",
