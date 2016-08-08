@@ -1,10 +1,10 @@
 'use strict;'
 
 var expect = require('chai').expect;
-import { types } from '../';
+import lib from '../lib';
 // import type { Account } from '../lib/TypeDefinitions';
 //
-console.log('types', types);
+console.log('lib', lib);
 
 describe.skip('TypeDefinitions', function() {
 
