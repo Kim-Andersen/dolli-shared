@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    "transform-es2015-arrow-functions",
+    "transform-flow-strip-types"
+  ],
+  "ignore": [
+    "node_modules"
+  ]
+}

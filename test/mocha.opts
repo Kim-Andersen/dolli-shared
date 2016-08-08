@@ -1,0 +1,5 @@
+--require babel-core/register
+--ui bdd
+--full-trace
+--growl
+--timeout 2000
