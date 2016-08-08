@@ -2,7 +2,7 @@
   "name": "dolli-shared",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/Kim-Andersen/dolli-shared",
   "scripts": {
     "test": "mocha --harmony --growl",
