@@ -12,18 +12,13 @@
   "license": "ISC",
   "browserify": {
     "transform": [
-      [
-        "babelify",
-        {
-          "presets": [
-            "es2015",
-            "stage-0",
-            "react"
-          ]
-        }
-      ]
+      "babelify"
     ]
   },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "2.5.3"
