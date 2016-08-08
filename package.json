@@ -10,6 +10,11 @@
   },
   "author": "Kim Andersen <kimandersen1@gmail.com>",
   "license": "ISC",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "2.5.3"
