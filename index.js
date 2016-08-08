@@ -12,7 +12,9 @@ module.exports.validate = validate;
 module.exports.models = models;
 // module.exports.TypeDefinitions = TypeDefinitions;
 
-export * from './lib/TypeDefinitions';
+module.exports.types = require('./lib/TypeDefinitions');
+
+// export * from './lib/TypeDefinitions';
 
 // const defaultExport = {...TypeDefinitions};
 // module.exports = defaultExport;
