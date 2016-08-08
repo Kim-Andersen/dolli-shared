@@ -6,7 +6,8 @@
   "repository": "https://github.com/Kim-Andersen/dolli-shared",
   "scripts": {
     "test": "mocha --harmony --growl",
-    "test watch": "mocha --harmony --watch --growl"
+    "test watch": "mocha --harmony --watch --growl",
+    "compile": "./node_modules/.bin/babel -d dist/ src/"
   },
   "author": "Kim Andersen <kimandersen1@gmail.com>",
   "license": "ISC",
@@ -14,7 +15,9 @@
     "transform": [
       [
         "babelify",
-        { "presets": ["es2015"] }
+        {
+          "presets": ["es2015", "stage-0", "react"]
+        }
       ]
     ]
   },
@@ -23,6 +26,7 @@
     "lib/"
   ],
   "devDependencies": {
+    "babel-cli": "^6.11.4",
     "chai": "^3.5.0",
     "mocha": "2.5.3"
   },

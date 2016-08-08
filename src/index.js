@@ -2,8 +2,6 @@
 
 'use strict;'
 
-require("babel-polyfill");
-
 const format = require('./format');
 const validate = require('./validate');
 const models = require('./models');
