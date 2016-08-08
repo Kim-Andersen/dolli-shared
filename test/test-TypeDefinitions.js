@@ -4,7 +4,6 @@ var expect = require('chai').expect;
 import lib from '../lib';
 // import type { Account } from '../lib/TypeDefinitions';
 //
-console.log('lib', lib);
 
 describe.skip('TypeDefinitions', function() {
 
